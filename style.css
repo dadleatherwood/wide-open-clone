@@ -118,12 +118,17 @@ header .below::after {
   height: 50px;
   width: 360px;
   background-color: #BCD336;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: white;
   border-radius: 25px;
   margin-top: 50px;
   border: 1px solid #bcd336;
+}
+
+.learn-more a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .btn-container {
@@ -134,13 +139,53 @@ header .below::after {
   width: 100%auto;
   height: 375px;
   background-color: #F0F0F0;
-
-
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
 }
 
-.about .paragraph {
+.paragraph {
   text-align: center;
+  width: 100%;
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   color: #6A787C;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+.tools-image {
+  width: 100px;
+  height: 75px;
+  background: url('img/sprite_home.png') 3px -113px no-repeat  ;
+
+}
+
+.heres-how {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: #6A787C;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heres-how span {
+  color: #BCD336;
+  font-weight: bold;
+}
+
+.how-we-work {
+  height: 550px;
+  background-color: #fff;
+}
+
+.light-bulb {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
