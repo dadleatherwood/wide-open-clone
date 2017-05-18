@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.mobile-nav {
+  width: 100%;
+  z-index: 3;
+  position: fixed;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+
+}
+
+.logo {
+  background-image: url(img/title_wideopentech.png);
+  background-repeat: no-repeat;
+  background-size: 155px 31px;
+  height: 31px;
+  width: 155px;
+  margin-left: 20%;
+}
+
+.mobile-nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+  margin-right: 20%;
+}
+
+.mobile-nav-link {
+  margin-right: 10px;
+
+}
+.mobile-nav-link a {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-left: .5em;
+  text-decoration: none;
+  color: #EEE8E5;
+  float: left;
+}
+
+header {
+  height: 500px;
+  background: url("img/wot-masthead-dark.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+header .title {
+  text-transform: uppercase;
+  position: absolute;
+  height: 245px;
+  width: 675px;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 80px;
+  color: white;
+  margin-top: 50px;
+
+}
+
+header .small {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: -50px;
+}
+
+header .large {
+  font-size: 155px;
+  text-align: center;
+}
+
+header .below {
+  text-transform: none;
+  font-size: 18px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+header .below::before {
+  content: "";
+  display: inline-block;
+  width: 5em;
+  height: 10px;
+  background-color: #fff;
+  margin-right: 100px;
+}
+
+header .below::after {
+  content: "";
+  display: inline-block;
+  width: 5em;
+  height: 10px;
+  background-color: #fff;
+  margin-left: 100px;
+}
+
+#solutions {
+  color: #FF803A;
+}
+
+#ideas {
+  color: #BCD336;
+}
+
+.learn-more {
+  height: 50px;
+  width: 360px;
+  background-color: #BCD336;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  border: 1px solid #bcd336;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.about {
+  width: 100%auto;
+  height: 375px;
+  background-color: #F0F0F0;
+
+
+}
+
+.about .paragraph {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6A787C;
+}
