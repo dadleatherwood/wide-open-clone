@@ -24,7 +24,7 @@
   background-size: 155px 31px;
   height: 31px;
   width: 155px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .mobile-nav-links {
@@ -33,7 +33,7 @@
   flex-direction: row;
   justify-content: flex-end;
   flex-flow: row wrap;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 .mobile-nav-link {
